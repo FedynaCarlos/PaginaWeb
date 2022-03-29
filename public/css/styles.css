@@ -1,0 +1,59 @@
+body {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+
+}
+body {
+    background-color: salmon;
+    font-family: sans-serif;
+    background-image: url('../images/cuento.jpg');
+    background-attachment: fixed;
+}
+
+/*selector id*/
+#saludo {
+    color: red;
+}
+/*selector clase*/
+.somos {
+    font-size: 40px;
+    border-color: blue;
+    color: black;
+}
+.somos{
+    display: flex;
+    flex-wrap: wrap;
+}
+p {
+    color: green;
+    font-weight: 600;
+
+}
+/*selector combinado*/
+h3.foto {
+    color: blueviolet;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*selector desendente*/
+ol#lista li {
+    color:blue;
+}
+
+
+@media(nin-width: 560px){
+    body {
+        background-color: blue;
+    }
+    .somos {
+        font-size: 50px;
+    }
+}
+@media(min-width: 990px){
+.somos{
+font-size: 50px;
+
+}
+};
